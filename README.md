@@ -3,6 +3,16 @@ This is an Emacs major mode designed for editing programs for the HP
 35s. It's pretty simple, but offers some useful features.
 
 ## Using it
+Copy `hp35s-mode.el` to a convenient location, and add this to your
+Emacs init-file: 
+
+`(load-file "PATH/TO/hp35s-mode.el")`
+
+If you want to automatically open files that end in `.hp35s` with the
+mode, add this line beneath the `load-file`:
+
+`(add-to-list 'auto-mode-alist '("\\.hp35s\\'" . hp35s-mode))`
+
 Programs are stored with one command per line, just like the editor on
 the 35s. Each file should have just one label. Unlike the editor, there are no line numbers, and a program just looks like this:
 
