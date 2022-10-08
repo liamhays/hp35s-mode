@@ -1,4 +1,6 @@
 # hp35s-mode
+**Archived. This mode is functional but I am not updating or maintaining it.**
+
 This is an Emacs major mode designed for editing programs for the HP
 35s. It's pretty simple, but offers some useful features.
 
